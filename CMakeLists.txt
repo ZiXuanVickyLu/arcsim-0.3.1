@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.20)
 
-if (WIN32)
-        set(CMAKE_TOOLCHAIN_FILE "C:/vcpkg/scripts/buildsystems/vcpkg.cmake")
+if (WIN32 OR MSVC)
+        set(CMAKE_TOOLCHAIN_FILE "D:/Github/vcpkg/scripts/buildsystems/vcpkg.cmake")
         add_compile_definitions(_USE_MATH_DEFINES)
 endif()
 

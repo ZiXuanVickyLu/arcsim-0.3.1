@@ -1,0 +1,10 @@
+{
+  "dependencies": [
+    "freeglut",
+    "jsoncpp",
+    "libpng",
+    "eigen3",
+    "boost"
+  ],
+  "builtin-baseline": "7aeffc91033ad35cc4e2c152f213a866ec6c11ac"
+}
